@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "CRXJS",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "cookies",
+    "declarativeContent",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {},
+  "background": {
+    "service_worker": "src/background.ts",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["index.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
