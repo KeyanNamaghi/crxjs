@@ -18,6 +18,15 @@ function App() {
         };
         reader.readAsText(file);
       });
+      var blob = new Blob(["👋"], {
+        type: "text/plain",
+      });
+      var url = URL.createObjectURL(blob);
+      chrome.downloads.download({
+        url: url, // The object URL can be used as download URL
+        filename: "example.txt",
+        saveAs: true,
+      });
     },
     []
   );

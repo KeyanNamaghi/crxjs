@@ -8,6 +8,7 @@
     "cookies",
     "declarativeContent",
     "scripting",
+    "downloads",
     "activeTab"
   ],
   "action": {},
