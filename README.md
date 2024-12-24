@@ -1,6 +1,8 @@
 # Extension
 
-Warning: This is not very well written or setup as it was just thrown together as a POC
+Warning: This is not very well written or setup as it was just thrown together as a POC.
+
+Currently the file content is just logged to the browser console but it gets the idea across.
 
 ## Getting started
 

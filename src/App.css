@@ -13,10 +13,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+.drag-area {
+  background-color: #1a1c20;
+  padding: 100px;
+  border-radius: 20px;
 }

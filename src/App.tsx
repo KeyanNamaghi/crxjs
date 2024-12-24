@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hello World:</p>
-        <div {...getRootProps()}>
+        <p>Hello 👋</p>
+        <div {...getRootProps()} className="drag-area">
           <input {...getInputProps()} />
           {isDragActive ? (
             <p>Drop the files here ...</p>
